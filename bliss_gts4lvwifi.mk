@@ -24,6 +24,8 @@ $(call inherit-product, device/samsung/gts4lvwifi/device.mk)
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_tablet_wifionly.mk)
 
+BLISS_BUILDTYPE := OFFICIAL
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
